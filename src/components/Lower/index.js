@@ -20,7 +20,8 @@ const Lower = () => (
                     <div class="col">
                         <div className='Move'>
                         <button type="button" class="btn btn-success">
-                            <h3 class="reach">Donate </h3></button>
+                            <h3 class="reach">
+                                <a href="./Donate"> Donate </a></h3></button>
                             </div>
                     </div>
                 </div>

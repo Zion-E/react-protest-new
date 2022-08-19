@@ -31,6 +31,9 @@ export const Content = styled.div`
         margin-top: 5px;
     }
 
+    h1 {
+        min-height: 0;
+    }
 
     width: 100%;
 
@@ -46,21 +49,6 @@ export const Content = styled.div`
         padding-right: 10px;
     }
 
-    // .SSK {
-    //     margin-top: 8%;
-
-    //     @media screen and (max-width: 600px) {
-    //         font-weight:700; font-size: 50px;
-    //     }
-        
-    //     @media screen and (max-width: 400px) {
-    //         font-weight:500; font-size: 30px;
-    //     }
-    
-    //     @media screen and (max-width: 200px) {
-    //         font-weight:300; font-size: 15px;
-    //     }
-    // }
     .SOR1 {
         color: transparent;
         -webkit-text-stroke-color: white;
@@ -120,6 +108,8 @@ export const Content = styled.div`
             font-weight:300; font-size: 15px; margin-top: -15px;
         }
     }
+
+    
 
 
     .Donate {

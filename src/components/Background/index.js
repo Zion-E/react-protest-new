@@ -47,9 +47,13 @@ const Background = () => (
     </div>
 
             <div className='Donate'>
-            <div class="text-center">
-                <h3 class="text-center" href="../protest/donate.html">Donate</h3>
-            </div>
+            
+                        <div className='Move'>
+                        <button type="button" class="btn btn-success">
+                            <h3 class="reach">
+                                <a href="./Donate"> Donate </a></h3></button>
+                            </div>
+            
             </div>
 
 
