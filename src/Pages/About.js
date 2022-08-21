@@ -22,8 +22,7 @@ const About = () => (
             <div className='Nav'>
             <ul class="nav justify-content-center">
                 <li class="nav-item">
-                    <a class="nav-link active"
-                    aria-current="page" href="index.html">Home</a>
+                    <a class="nav-link" href='../Pages/Home'>Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href='../Pages/About'>About</a>

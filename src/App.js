@@ -9,7 +9,7 @@ import Donate from './Pages/Donate';
 import Home from './Pages/Home';
 
 //Styles
-import "./App.css";
+// import "./App.css";
 
 
 const App = () =>{
@@ -17,6 +17,7 @@ const App = () =>{
     <BrowserRouter>
       <Routes>
         <Route index element={<Home/>} />
+        <Route path="/Pages/Home" element={<Home/>} />
         <Route path="/Pages/About" element={<About/>} />
         <Route path="/Pages/Contact" element={<Contact/>} />
         <Route path="/Pages/Donate" element={<Donate/>} />
