@@ -35,9 +35,9 @@ const Donate = () => (
             </div>
                                 
             <div class="text-center">
-                <div class= "donate">
-                <h1 class="text-center"><b>Donate</b></h1>
-                </div>
+  
+                <h1 class= 'donate'><b>Donate</b></h1>
+               
             </div>
 
             <div class="text-center">
@@ -92,9 +92,12 @@ const Donate = () => (
                             </div>
                         </div>
                         </div>
-                        <div class="col">
-                            <button type="button" class="btn btn-success" href="../Pages/Donate"><b>Donate</b></button>
-                        </div>
+                        <div>
+                            <a href= '../Pages/Donate'>
+                        <input class="donatebtn" type="submit" value="Donate" id="submit">
+                        </input>
+                        </a>
+                            </div>
                     </div>
                     
                   </form>

@@ -7,20 +7,19 @@ export const Wrapper = styled.div`
 
 export const Content = styled.div`
 
-    
     .container-fluid {
         height: 350px;
         width: 100%;
+        padding-top: 80px;
+    }
 
-        .reach {
-            color: white; 
-        }
+    .reach {
+        color: white;
     }
-    b {
-        margin-top: 50px;
-    }
-    .Move {
-        margin-top: 150px;
+    
+    .donatebtn {
+        width: 120px;
+    border-radius: 40px; height: 40px; background-color: green; color: white;
     }
 `;
 

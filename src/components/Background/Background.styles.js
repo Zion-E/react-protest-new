@@ -112,10 +112,10 @@ export const Content = styled.div`
     
 
 
-    .Donate {
-        width: 120px; border-radius: 40px; height: 40px; margin-top: 50px;
-        background-color: green; margin-left: 45%; color: white;
-            }
+    .donatebtn {
+        width: 120px;
+    border-radius: 40px; height: 40px; background-color: green; color: white;
+    }
 
     .Donate {
         margin-top: 50px; margin-left: 45%;

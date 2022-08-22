@@ -48,11 +48,12 @@ const Background = () => (
 
             <div className='Donate'>
             
-                        <div className='Move'>
-                        <button type="button" class="btn btn-success">
-                            <h3 class="reach">
-                                <a href="./Donate"> Donate </a></h3></button>
-                            </div>
+                        <div>
+                            <a href= '../Pages/Donate'>
+                        <input class="donatebtn" type="submit" value="Donate" id="submit">
+                        </input>
+                        </a>
+                        </div>
             
             </div>
 

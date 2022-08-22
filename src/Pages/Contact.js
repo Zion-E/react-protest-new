@@ -103,8 +103,10 @@ const Contact = () => (
                                     id="exampleInputtext" aria-describedby="MessageHelp"/>
                                     
                                   </div>
+                                  <div><a href= '../Pages/Donate'>
                                     <input class="submitbtn" type="submit" value="Submit" id="submit"/>
-                                
+                                    </a>
+                                    </div>
                               </form>
                         </div>
                     </div>   

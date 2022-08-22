@@ -55,7 +55,7 @@ width: 100%;
 
 
 #formfloor {
-    background-color: rgba(128, 128, 128, 0.219); margin-right: 10%; border-radius: 15px;
+    background-color: rgba(128, 128, 128, 0.219); margin-right: 5%; border-radius: 15px;
     margin-top: 50px;
 }
 #mbox {
@@ -67,19 +67,29 @@ width: 100%;
 }
 
 .col {
-    padding-top: 40px; width: 50%;
+    padding-top: 40px; 
 }
 
 .row {
     margin-bottom: 40px;
 }
 
-
+.img-fluid {
+    @media screen and (max-width => 800px) {
+        width: 100px;
+        height: 60px;
+        }
+        @media screen and (max-width => 500px) {
+        width: 80px;
+        height: 40px
+        }
+}
 
 `;
 
 export const MAP = styled.img`
     margin-top: 50px;
+
 `;
 
 export const ImageLOGO = styled.img`

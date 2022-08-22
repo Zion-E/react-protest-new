@@ -13,15 +13,17 @@ const Lower = () => (
                 <div class="row">
                     <div class="col" >
                         <h2 className='Move'>
-                            <b class="reach">Help Us Reach Out To The Youths</b>
+                            <b class='reach'>Help Us Reach Out To The Youths</b>
                         </h2>
                     </div>
                     
                     <div class="col">
-                        <div className='Move'>
-                        <button type="button" class="btn btn-success">
-                            <h3 class="reach">
-                                <a href="./Donate"> Donate </a></h3></button>
+                    
+                        <div>
+                            <a href= '../Pages/Donate'>
+                        <input class="donatebtn" type="submit" value="Donate" id="submit">
+                        </input>
+                        </a>
                             </div>
                     </div>
                 </div>

@@ -50,6 +50,10 @@ h1 {
     color: white; font-family: Roboto; font-style:normal;
     font-weight:900; font-size: 80px; margin-top: 100px;
 }
+#submit {
+    width: 120px; margin-top: 80px; margin-left: 30%; margin-bottom: 40px;
+    border-radius: 40px; height: 40px; background-color: green; color: white;
+}
 .ipsum {
     color: white; 
 }
