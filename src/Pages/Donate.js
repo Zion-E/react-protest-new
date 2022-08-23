@@ -5,7 +5,7 @@ import LOGOImg from '../images/LogoImg.png';
 import Footer from '../components/Footer';
 
 
-import { Wrapper, Content, ImageLOGO, VectorIMG } from './Donate.styles';
+import { Wrapper, Content, ImageLOGO } from './Donate.styles';
 
 const Donate = () => (
     <Wrapper>        
