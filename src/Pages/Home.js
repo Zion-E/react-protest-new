@@ -1,6 +1,6 @@
 import React from 'react';
 //Routing
-import { BrowserRouter as Router } from 'react-router-dom';
+//import { BrowserRouter as Router } from 'react-router-dom';
 
 //Components
 import Background from '../components/Background';
