@@ -7,6 +7,9 @@ import { Wrapper, Content, ImageLOGO } from './Background.styles';
 
 const Background = () => (
     <Wrapper>
+        <div class = "container-fluid">
+
+        
         <div className = "Behind" style={{ backgroundImage: `url(${CrowdLOGO})` }}>
         
         <Content>
@@ -60,6 +63,7 @@ const Background = () => (
 
           </div>  
         </Content>
+        </div>
         </div>
     </Wrapper>
 );

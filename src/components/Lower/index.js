@@ -6,6 +6,7 @@ import { Wrapper, Content } from './Lower.styles';
 
 const Lower = () => (
     <Wrapper>
+        <div class = "container-fluid">
         <div className = "Happykids" style={{ backgroundImage: `url(${KidsImg})` }}>
         <Content>  
             <div class="container-fluid">
@@ -30,6 +31,7 @@ const Lower = () => (
             </div>
             </div>
         </Content>
+        </div>
         </div>
     </Wrapper>
 );

@@ -5,6 +5,7 @@ import styled from 'styled-components';
 export const Wrapper = styled.div`
     padding: 0;
     height: 600px;
+    width: 100%;
     
     display: flexbox;
     align-items: center;
@@ -33,6 +34,10 @@ export const Content = styled.div`
 
     h1 {
         min-height: 0;
+    }
+
+    a {
+        color: white;
     }
 
     width: 100%;

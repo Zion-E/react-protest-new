@@ -25,6 +25,10 @@ export const Content = styled.div`
 
 }
 
+a {
+    color: white;
+}
+
 .Nav {
     display: flex;
     justify-content: center;

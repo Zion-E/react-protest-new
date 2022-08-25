@@ -23,6 +23,10 @@ export const Content = styled.div`
 
 }
 
+a {
+    color: white;
+}
+
 ImageLOGO {
     margin-top: 0;
 }
